@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66BC96D329548213003EF3E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC96D229548213003EF3E0 /* AppDelegate.swift */; };
+		66BC96D529548213003EF3E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC96D429548213003EF3E0 /* SceneDelegate.swift */; };
+		66BC96D729548213003EF3E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC96D629548213003EF3E0 /* ViewController.swift */; };
+		66BC96DA29548213003EF3E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BC96D829548213003EF3E0 /* Main.storyboard */; };
+		66BC96DC29548214003EF3E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BC96DB29548214003EF3E0 /* Assets.xcassets */; };
+		66BC96DF29548214003EF3E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BC96DD29548214003EF3E0 /* LaunchScreen.storyboard */; };
+		66BC96E7295482F3003EF3E0 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC96E6295482F3003EF3E0 /* TopViewController.swift */; };
+		66BC96E929548308003EF3E0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC96E829548308003EF3E0 /* ResultViewController.swift */; };
+		66BC96EB29548310003EF3E0 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC96EA29548310003EF3E0 /* RankingViewController.swift */; };
+		D3F7F7D1A645ABEEED9E46E4 /* Pods_saito_tap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8A9145F6203B526533A819 /* Pods_saito_tap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D8A9145F6203B526533A819 /* Pods_saito_tap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_saito_tap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BC96CF29548213003EF3E0 /* saito tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "saito tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BC96D229548213003EF3E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66BC96D429548213003EF3E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66BC96D629548213003EF3E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66BC96D929548213003EF3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66BC96DB29548214003EF3E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66BC96DE29548214003EF3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66BC96E029548214003EF3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BC96E6295482F3003EF3E0 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		66BC96E829548308003EF3E0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		66BC96EA29548310003EF3E0 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		B153915C641E5E15C71D8EBD /* Pods-saito tap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saito tap.debug.xcconfig"; path = "Target Support Files/Pods-saito tap/Pods-saito tap.debug.xcconfig"; sourceTree = "<group>"; };
+		BD39C027A1D446FE574D257C /* Pods-saito tap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saito tap.release.xcconfig"; path = "Target Support Files/Pods-saito tap/Pods-saito tap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66BC96CC29548213003EF3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F7F7D1A645ABEEED9E46E4 /* Pods_saito_tap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D6AFBCB88BB9850E831CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8A9145F6203B526533A819 /* Pods_saito_tap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66BC96C629548213003EF3E0 = {
+			isa = PBXGroup;
+			children = (
+				66BC96D129548213003EF3E0 /* saito tap */,
+				66BC96D029548213003EF3E0 /* Products */,
+				C969C1AAECD2AFE6AEEEFA32 /* Pods */,
+				11D6AFBCB88BB9850E831CBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66BC96D029548213003EF3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BC96CF29548213003EF3E0 /* saito tap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66BC96D129548213003EF3E0 /* saito tap */ = {
+			isa = PBXGroup;
+			children = (
+				66BC96D229548213003EF3E0 /* AppDelegate.swift */,
+				66BC96D429548213003EF3E0 /* SceneDelegate.swift */,
+				66BC96D629548213003EF3E0 /* ViewController.swift */,
+				66BC96E6295482F3003EF3E0 /* TopViewController.swift */,
+				66BC96E829548308003EF3E0 /* ResultViewController.swift */,
+				66BC96EA29548310003EF3E0 /* RankingViewController.swift */,
+				66BC96D829548213003EF3E0 /* Main.storyboard */,
+				66BC96DB29548214003EF3E0 /* Assets.xcassets */,
+				66BC96DD29548214003EF3E0 /* LaunchScreen.storyboard */,
+				66BC96E029548214003EF3E0 /* Info.plist */,
+			);
+			path = "saito tap";
+			sourceTree = "<group>";
+		};
+		C969C1AAECD2AFE6AEEEFA32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B153915C641E5E15C71D8EBD /* Pods-saito tap.debug.xcconfig */,
+				BD39C027A1D446FE574D257C /* Pods-saito tap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66BC96CE29548213003EF3E0 /* saito tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BC96E329548214003EF3E0 /* Build configuration list for PBXNativeTarget "saito tap" */;
+			buildPhases = (
+				92B18A47BBA1DB438DADD25B /* [CP] Check Pods Manifest.lock */,
+				66BC96CB29548213003EF3E0 /* Sources */,
+				66BC96CC29548213003EF3E0 /* Frameworks */,
+				66BC96CD29548213003EF3E0 /* Resources */,
+				6DD9DE48F090E62B8892E28F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "saito tap";
+			productName = "saito tap";
+			productReference = 66BC96CF29548213003EF3E0 /* saito tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66BC96C729548213003EF3E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					66BC96CE29548213003EF3E0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 66BC96CA29548213003EF3E0 /* Build configuration list for PBXProject "saito tap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66BC96C629548213003EF3E0;
+			productRefGroup = 66BC96D029548213003EF3E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BC96CE29548213003EF3E0 /* saito tap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66BC96CD29548213003EF3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BC96DF29548214003EF3E0 /* LaunchScreen.storyboard in Resources */,
+				66BC96DC29548214003EF3E0 /* Assets.xcassets in Resources */,
+				66BC96DA29548213003EF3E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DD9DE48F090E62B8892E28F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-saito tap/Pods-saito tap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-saito tap/Pods-saito tap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-saito tap/Pods-saito tap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B18A47BBA1DB438DADD25B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-saito tap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66BC96CB29548213003EF3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BC96E929548308003EF3E0 /* ResultViewController.swift in Sources */,
+				66BC96E7295482F3003EF3E0 /* TopViewController.swift in Sources */,
+				66BC96D729548213003EF3E0 /* ViewController.swift in Sources */,
+				66BC96D329548213003EF3E0 /* AppDelegate.swift in Sources */,
+				66BC96D529548213003EF3E0 /* SceneDelegate.swift in Sources */,
+				66BC96EB29548310003EF3E0 /* RankingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66BC96D829548213003EF3E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BC96D929548213003EF3E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66BC96DD29548214003EF3E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BC96DE29548214003EF3E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66BC96E129548214003EF3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66BC96E229548214003EF3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66BC96E429548214003EF3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B153915C641E5E15C71D8EBD /* Pods-saito tap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = RL6XLKL7WG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "saito tap/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "「齊」藤（さいとう）さんを見つけ出せ！";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "許可するとあなたの好みの広告が表示されやすくなります。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.begin.saito-tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66BC96E529548214003EF3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD39C027A1D446FE574D257C /* Pods-saito tap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = RL6XLKL7WG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "saito tap/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "「齊」藤（さいとう）さんを見つけ出せ！";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "許可するとあなたの好みの広告が表示されやすくなります。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.begin.saito-tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66BC96CA29548213003EF3E0 /* Build configuration list for PBXProject "saito tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BC96E129548214003EF3E0 /* Debug */,
+				66BC96E229548214003EF3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BC96E329548214003EF3E0 /* Build configuration list for PBXNativeTarget "saito tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BC96E429548214003EF3E0 /* Debug */,
+				66BC96E529548214003EF3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66BC96C729548213003EF3E0 /* Project object */;
+}

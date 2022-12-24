@@ -1,0 +1,6 @@
+framework module Pods_saito_tap {
+  umbrella header "Pods-saito tap-umbrella.h"
+
+  export *
+  module * { export * }
+}
